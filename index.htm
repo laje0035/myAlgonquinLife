@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html> 
+	<head>
+		<meta name="x-blackberry-defaultHoverEffect" content="false" />
+		<link  rel="stylesheet" type="text/css" href="bbui-min.css" />
+		<link  rel="stylesheet" type="text/css" href="style.css" />
+		<script type="text/javascript" src="bbui-min.js"></script>
+		<script type="text/javascript" src="map.js"></script>
+		<script type="text/javascript" src="jquery.2.0.3.min.js"></script>
+		<script type="text/javascript" src="contacts.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?sensor=true&libraries=places"></script>
+		<script type="text/javascript" src="local:///chrome/webworks.js"></script>
+		<script type="text/javascript">
+			window.addEventListener('load',function(){
+				document.addEventListener('webworksready', function(e) {
+					dbNamespace = {};
+					dbNamespace.db = window.openDatabase('contacts', '1.0', 'Stored Contacts', 2*1024*1024);
+					fasterArray = new Array();
+					bb.init({
+						onbackkey: null,
+						onscreenready: function(element, id) {
+										if (id === 'services'){
+											getJsonServices();
+										}
+						}
+						,
+						ondomready: function(element, id) {
+										if (id === 'google'){
+											initGoogleMaps();
+										}
+										if (id === 'contactInfo'){
+											buildContactDetails();
+										}
+										if (id === 'serviceDetails'){
+											showServiceDetails();
+										}
+									}
+						,
+						actionBarDark: true,
+						controlsDark: true,
+						coloredTitleBar: true,
+						highlightColor: '#7ac027'
+					});
+					bb.pushScreen('landing.htm', 'landing');
+					createDB();
+				}), false;
+			}), false;
+		</script>
+	</head>
+
+	<body>
+
+	</body>
+
+</html>

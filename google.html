@@ -1,0 +1,20 @@
+<div id="styling" data-bb-type="screen" data-bb-effect="fade">
+
+	<select id="poi">
+		<option value="atm" selected="true">ATM</option>
+   		<option value="bank">Bank</option>
+    	<option value="bar">Bar</option>
+    	<option value="bus_station">Bus Station</option>
+    	<option value="convenience_store">Convenience Store</option>
+    	<option value="grocery_or_supermarket">Grocery Store</option>
+    	<option value="liquor_store">Liquor Store</option>
+    	<option value="pharmacy">Pharmacy</option>
+    	<option value="shopping_mall">Shopping Mall</option>
+	</select> 
+
+	<div id="map_canvas"></div>
+
+	<div data-bb-type="action-bar"  data-bb-back-caption="Home">
+    	<div onclick="initGooglePlaces(document.getElementById('poi').value);"  data-bb-type="action" data-bb-style="button" data-bb-img="images/icons/places.png">Results!</div>
+	</div>
+</div>

@@ -1,0 +1,262 @@
+{
+	"Application": "My Algonquin Life",
+	"website": "http:///www.algqonuincollege.com",
+	"Services":
+	[
+		{
+			"service":	"Academic Units",
+			"desc":		"Campus Services Academic Units",
+			"items":
+			[
+				{
+				"name":	"Advanced Technology",
+				"location":	"Building A"
+				},
+				{
+				"name":	"Algonquin Centre for Construction Excellence",
+				"location":	"Building ACCE"
+				},
+				{
+				"name":	"Business",
+				"location":	"Building C"
+				},
+				{
+				"name":	"Health & Community Studies",
+				"location":	"Building N"
+				},
+				{
+				"name":	"Hospitality & Tourism",
+				"location":	"Building H"
+				},
+				{
+				"name":	"Languages",
+				"location":	"Building J"
+				},
+				{
+				"name":	"Media & Design",
+				"location":	"Building C"
+				},
+				{
+				"name":	"Part-time Studies / Continuing Education",
+				"location":	"Building A"
+				},
+				{
+				"name":	"Police & Public Safety",
+				"location":	"Building P"
+				},
+				{
+				"name":	"Second Career",
+				"location":	"Building B"
+				}
+			]
+		},
+		{
+			"service":	"Career & Employment",
+			"desc":		"Campus Services Employment Services & Career Counselling",
+			"items":
+			[
+				{
+				"name":	"Apprenticeship",
+				"location":	"Building C"
+				},
+				{
+				"name":	"Career and Academic Access Centre",
+				"location":	"Building A"
+				},
+				{
+				"name":	"Coop - Cooperative Education",
+				"location":	"Building A"
+				},
+				{
+				"name":	"Human Resources",
+				"location":	"Building C"
+				},
+				{
+				"name":	"Student Employment Services",
+				"location":	"Building B"
+				}
+			]
+		},
+		{
+			"service":	"Events",
+			"desc":		"Campus Services Whats Going On",
+			"items":
+			[
+				{
+				"name":	"College Events",
+				"location":	"Building A"
+				},
+				{
+				"name":	"Students' Association Events",
+				"location":	"Building C"
+				}
+			]
+		},
+		{
+			"service":	"Food And Beverage",
+			"desc":		"Campus Services Food & Beverages",
+			"items":
+			[
+				{
+				"name":	"35th Street Market Cafe",
+				"location":	"Residence"
+				},
+				{
+				"name":	"Bits n Bytes",
+				"location":	"Building T"
+				},
+				{
+				"name":	"First Cup Deli",
+				"location":	"Building C"
+				},
+				{
+				"name":	"Market Place Food Court",
+				"location":	"Building D"
+				},
+				{
+				"name":	"The Observatory",
+				"location":	"Building A"
+				},
+				{
+				"name":	"The Fix Eatery",
+				"location":	"Building ACCE"
+				},
+				{
+				"name":	"The Portable Feast",
+				"location":	"Building B"
+				},
+				{
+				"name":	"Tim Hortons",
+				"location":	"Building A"
+				}
+			]
+		},
+		{
+			"service":	"Health Services",
+			"desc":		"Campus Services Health & Wellness",
+			"items":
+			[
+				{
+				"name":	"Algonquin Sports Therapy",
+				"location":	"Z115 - 1385 Woodroffe Ave"
+				},
+				{
+				"name":	"Dental Clinic",
+				"location":	"Room J 109"
+				},
+				{
+				"name":	"Fitness Zone",
+				"location":	"Building A"
+				},
+				{
+				"name":	"Health Services",
+				"location":	"Building C Room 141"
+				},
+				{
+				"name":	"Massage Therapy Clinic",
+				"location":	"Building J Room 109"
+				}
+			]
+		},
+		{
+			"service":	"Housing",
+			"desc":		"Campus Services Student Housing Assistance",
+			"items":
+			[
+				{
+				"name":	"Residence",
+				"location":	"Student Residence Admin"
+				},
+				{
+				"name":	"Student Housing",
+				"location":	"Building C"
+				}
+			]
+		},
+		{
+			"service":	"News",
+			"desc":		"Campus Services Campus News",
+			"items":
+			[
+				{
+				"name":	"Air - Algonquin Internet Radio",
+				"location":	"Building J"
+				},
+				{
+				"name":	"Algonquin Times",
+				"location":	"Building C"
+				},
+				{
+				"name":	"CKDJ - Algonquin Radio",
+				"location":	"Building P"
+				},
+				{
+				"name":	"College News",
+				"location":	"Building A"
+				}
+			]
+		},
+		{
+			"service":	"Student Support Services",
+			"desc":		"Campus Services Student Support Services",
+			"items":
+			[
+				{
+				"name":	"Centre for Students with Disabilities",
+				"location":	"Building A"
+				},
+				{
+				"name":	"Counselling Services",
+				"location":	"Room J 109"
+				},
+				{
+				"name":	"Health Services",
+				"location":	"Building A"
+				},
+				{
+				"name":	"Mamidosewin Centre",
+				"location":	"Building C Room 141"
+				},
+				{
+				"name":	"Ombudsperson",
+				"location":	"Building J Room 109"
+				},
+				{
+				"name":	"Residence Outreach Services",
+				"location":	"Building J Room 109"
+				},
+				{
+				"name":	"Student Affairs & Orientation",
+				"location":	"Building J Room 109"
+				},
+				{
+				"name":	"Student Employment",
+				"location":	"Building J Room 109"
+				},
+				{
+				"name":	"Test Centre",
+				"location":	"Building J Room 109"
+				}
+			]
+		},
+		{
+			"service":	"Students' Association",
+			"desc":		"Campus Services Students' Association",
+			"items":
+			[
+				{
+				"name":	"Ottawa Student Association",
+				"location":	"Ottawa Campus"
+				},
+				{
+				"name":	"Pembroke Students' Association",
+				"location":	"Pembroke Campus"
+				},
+				{
+				"name":	"Perth Students' Association",
+				"location":	"Perth Campus"
+				}
+			]
+		}
+	]
+}

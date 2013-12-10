@@ -1,0 +1,64 @@
+<div id="styling" data-bb-type="screen" data-bb-indicator="true" data-bb-effect="fade">
+<div data-bb-type="title" data-bb-caption="Contacts"></div>
+
+	<!-- 
+		ADDING A CONTACT DIV
+	!-->
+	<div id="addContactDiv" >
+		<div data-bb-type="row" style="margin:1em;">
+		   <div data-bb-type="label">First Name</div>
+		   <input class="formInput" type="text" focus="true" value="" id="firstName" />
+	   </div>
+
+	   <div data-bb-type="row" style="margin:1em;">
+		   <div data-bb-type="label">Last Name</div>
+		   <input type="text" value="" id="lastName" />
+		</div>
+
+		<div data-bb-type="row" style="margin:1em;">
+		   <div data-bb-type="label">Mobile Number</div>
+		   <input type="tel" id="mobileNum" />
+		</div>
+
+		<div data-bb-type="row" style="margin:1em;">
+		   <div data-bb-type="label">Home Number</div>
+		   <input type="tel" id="homeNum" />
+		</div>
+
+		<div data-bb-type="row" style="margin:1em;">
+		   <div data-bb-type="label">Home Email</div>
+		   <input type="email" id="homeEmail" />
+		</div>
+
+		<div data-bb-type="row" style="margin:1em;">
+		   <div data-bb-type="label">School Email</div>
+		   <input type="email" id="schoolEmail" />
+		</div>
+
+		<div data-bb-type="row" style="margin:1em;">
+		   <div data-bb-type="label">How We Met</div>
+		   <input type="text" id="meetDes" />
+		</div>
+
+		<div data-bb-type="row">
+			<div data-bb-type="button" data-bb-style="stretch" onclick="createContact();" style="margin:1em;">Creae New Contact</div>
+		</div>
+
+	</div>
+	
+	<!-- 
+		CONTACT LIST DIV
+	!-->
+	<div id="listContactDiv" data-bb-type="image-list" style="display:none" data-bb-style="arrowlist">
+
+	</div>
+
+
+	<!--
+		ACTION BAR
+	!-->
+	<div data-bb-type="action-bar" data-bb-back-caption="Back">
+		<div id="actionBarAddContacts" data-bb-type="action" data-bb-style="button" onclick="showTab('addContactDiv');" data-bb-selected="true" data-bb-img="images/icons/icon_274.png">New Contact</div>
+		<div id="actionBarMyContacts" data-bb-type="action" data-bb-style="button" onclick="showOurList();" data-bb-img="images/icons/icon_273.png">Contacts</div>
+	</div>
+</div>

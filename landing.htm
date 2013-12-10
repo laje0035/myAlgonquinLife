@@ -1,0 +1,21 @@
+<div id="styling" data-bb-type="screen" data-bb-indicator="true" data-bb-effect="fade">
+<div data-bb-type="title" data-bb-caption="My Algonquin Life"></div>
+	<div data-bb-type="grid-layout">
+			<div data-bb-type="row">
+				<div data-bb-type="item" data-bb-img="images/contacts.jpg" data-bb-title="My Contacts" onclick="bb.pushScreen('contacts.htm', 'addContact')"></div>
+				<div data-bb-type="item" data-bb-img="images/services.gif" data-bb-title="Campus Services" onclick="bb.pushScreen('services.htm', 'services')"></div>
+			</div>
+			<div data-bb-type="row">
+				<div data-bb-type="item" data-bb-img="images/goingPlaces.jpg" data-bb-title="Going Places" onclick="blackberry.invoke.invoke({target: 'sys.browser',action: 'bb.action.OPEN',uri: 'http://www.octranspo.com/mobi/'},function(){},function(){});"></div>
+				<div data-bb-type="item" data-bb-img="images/seen.jpg" data-bb-title="Things I've Seen" onclick=""></div>
+			</div>
+			<div data-bb-type="row">
+				<div data-bb-type="item" data-bb-img="images/school.jpg" data-bb-title="Where am I?" onclick=""></div>
+				<div data-bb-type="item" data-bb-img="images/favoritePlaces.png" data-bb-title="Favorite Places" onclick="startGeolocation();"></div>
+			</div>
+			<div data-bb-type="row">
+				<div data-bb-type="item" data-bb-img="images/calendar.png" data-bb-title="My Timetable" onclick=""></div>
+				<div data-bb-type="item" data-bb-img="images/todo.jpg" data-bb-title="Things to Do!" onclick=""></div>
+			</div>
+	</div>
+</div>
